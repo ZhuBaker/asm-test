@@ -38,7 +38,7 @@ public class Main {
         byte[] bytes = cw.toByteArray();// 对 visitEnd 的最后一个调用是为了通知 cw：这个类已经结束
 
         /*MyClassLoader classLoader = new MyClassLoader();
-        Class aClass = classLoader.defineClass("com.tujia.agent.asm.day01.Comparable", bytes);*/
+        Class aClass = classLoader.defineClass("com.github.bakerzhu.agent.asm.day01.Comparable", bytes);*/
 
     }
 }
