@@ -9,6 +9,8 @@ import java.time.format.DateTimeFormatter;
  */
 public class App {
 
+    public Integer age = 10;
+
     public static void main(String[] args) {
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyyMMdd");
         LocalDateTime ldt = LocalDateTime.now();

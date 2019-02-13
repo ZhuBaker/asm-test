@@ -1,0 +1,2 @@
+下面的示例，移除了类Person中do开头的方法，并修改了类名Person为Cwtest。
+如果想移除某个方法，只需要返回Null（也就是不返回method）。
